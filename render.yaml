@@ -1,9 +1,5 @@
 services:
   - type: web
-    name: whatsapp-autosender
+    name: zap-sender
     env: node
-    buildCommand: npm install
     startCommand: npm start
-    envVars:
-      - key: NODE_ENV
-        value: production
