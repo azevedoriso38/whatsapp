@@ -1,7 +1,12 @@
 {
-  "name": "whatsapp-autosender",
+  "name": "zap-sender",
+  "main": "server.js",
   "dependencies": {
-    "express", "socket.io", "whatsapp-web.js", "qrcode", 
-    "multer", "dotenv", "cors", "uuid", "puppeteer"
+    "express": "^4.18.2",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode": "^1.5.3"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
