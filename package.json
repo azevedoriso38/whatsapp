@@ -1,0 +1,7 @@
+{
+  "name": "whatsapp-autosender",
+  "dependencies": {
+    "express", "socket.io", "whatsapp-web.js", "qrcode", 
+    "multer", "dotenv", "cors", "uuid", "puppeteer"
+  }
+}
